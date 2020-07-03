@@ -1,4 +1,3 @@
-
 require 'nokogiri'
 require 'open-uri'
 
@@ -35,3 +34,5 @@ class Scraper
   end
 
 end
+
+Scraper.new.print_courses
